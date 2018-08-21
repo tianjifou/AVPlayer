@@ -21,7 +21,7 @@ PODS:
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
-  - UITableView+FDTemplateLayoutCell (1.6)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
 
 DEPENDENCIES:
   - AFNetworking (= 3.0.4)
@@ -30,7 +30,17 @@ DEPENDENCIES:
   - MJRefresh (= 3.1.13)
   - ObjectMapper (= 2.1.0)
   - SDWebImage (= 3.7.5)
-  - UITableView+FDTemplateLayoutCell (= 1.6)
+  - "UITableView+FDTemplateLayoutCell (= 1.6)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - ObjectMapper
+    - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -39,8 +49,8 @@ SPEC CHECKSUMS:
   MJRefresh: 56a28aa628c9895e97a518dabaecf70b18f92f32
   ObjectMapper: e5e0f8aef8590fc2ddcde7f27eddb255863ee6e9
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
-  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
 PODFILE CHECKSUM: 9b8209349db4f818029813daa91ea2d6a5aecd9f
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
